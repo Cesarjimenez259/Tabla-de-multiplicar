@@ -1,0 +1,44 @@
+body{
+  background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+label {
+  font-size: 30px;
+text-align: center;
+display: block;
+color: #fff;
+font-weight: bold;
+}
+
+input{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+button{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 20px;
+  &:hover{
+    color: #fff;
+    background-color: #44A08D;
+  }
+}
+
+h2{
+  display: block;
+  text-align: center;
+}
+ul{
+  display: block;
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+}
